@@ -1,453 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于 GDG / DevFest</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="GDG �?DevFest 介绍" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GDG DevFest | Chrome DevTools Workshop</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="description" content="了解 Google Developer Groups (GDG) 与 DevFest 技术盛会，探索开发者社区的创新与合作。" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于 GDG / DevFest</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
+    <header class="site-header">
+        <div class="container">
+            <h1>Chrome DevTools Workshop</h1>
+            <nav class="main-nav">
+                <a href="./index.html">概览</a>
+                <a href="./gdg.html" class="active">GDG DevFest</a>
+                <a href="./mcp.html">MCP 技术</a>
+                <a href="./about.html">开发者</a>
+            </nav>
+        </div>
+    </header>
 
-  <main class="container">
-    <article class="card">
-      <h2>GDG（Google Developer Groups�?/h2>
-      <p>GDG 是由开发者自发组织的社区，旨在分�?Google 技术和实践。成员来自不同背景，聚焦互助与学习�?/p>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Google Developer Groups</h2>
+                <p>全球开发者社区，技术创新的孵化地</p>
+            </div>
+        </section>
 
-      <h2>DevFest</h2>
-      <p>DevFest �?GDG 的年度会议，包含技术演讲、Workshop �?network 活动。本�?Workshop 专注�?Chrome DevTools �?MCP（Model Context Protocol）实现�?/p>
-    </article>
-  </main>
+        <div class="container">
+            <section class="features">
+                <div class="feature">
+                    <span class="material-icons feature-icon">groups</span>
+                    <h3>开发者社区</h3>
+                    <p>GDG 是由热爱技术的开发者自发组织的社区，致力于分享知识和经验</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons feature-icon">event</span>
+                    <h3>DevFest 盛会</h3>
+                    <p>年度技术盛会，汇集创新思维与实践经验的交流平台</p>
+                </div>
+                <div class="feature">
+                    <span class="material-icons feature-icon">school</span>
+                    <h3>技术培训</h3>
+                    <p>通过 Workshop 和讲座，深入学习 Google 的前沿技术</p>
+                </div>
+            </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
+            <h2 class="section-title">关于 DevFest</h2>
+            <section class="cards">
+                <article class="card">
+                    <h3>DevFest 2025</h3>
+                    <p>本届 DevFest 聚焦浏览器开发工具的创新，探讨 Chrome DevTools 的技术进展与未来方向。通过实践工作坊，参与者将深入了解浏览器调试与性能分析的前沿技术。</p>
+                </article>
 
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DevTools MCP 简�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="DevTools MCP（Model Context Protocol）简介与 Workshop 练习" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>DevTools MCP</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
+                <article class="card">
+                    <h3>Workshop 亮点</h3>
+                    <p>• Chrome DevTools 架构解析<br>
+                    • Model Context Protocol 深度剖析<br>
+                    • 性能监控实战演练<br>
+                    • 调试技巧与最佳实践</p>
+                </article>
 
-  <main class="container">
-    <article class="card">
-      <h2>什么是 MCP�?/h2>
-      <p>MCP（Model Context Protocol）是 Chrome DevTools 使用的协议之一，允许前端工具与浏览器或被调试目标进�?JSON 消息通信，用于调试、性能检测和页面控制�?/p>
+                <article class="card">
+                    <h3>参与收获</h3>
+                    <p>通过本次 Workshop，您将掌握：<br>
+                    • DevTools 协议设计原理<br>
+                    • 性能监控服务器开发<br>
+                    • 浏览器调试高级技巧<br>
+                    • 前沿开发工具应用</p>
+                </article>
+            </section>
+        </div>
+    </main>
 
-      <h3>Workshop 实现要点</h3>
-      <ul>
-        <li>启动一�?WebSocket 服务（例如本 Workshop �?MCP 服务器），接�?DevTools 前端连接�?/li>
-        <li>实现必要的命令，�?Performance.enable / Performance.getMetrics，用于采集性能数据�?/li>
-        <li>可借助 Protocol Monitor（DevTools 实验功能）观察消息往返过程�?/li>
-      </ul>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>© 2025 Chrome DevTools Workshop @ DevFest</div>
+            <div class="footer-links">
+                <a href="https://developers.google.cn">Google Developers</a>
+                <a href="https://github.com/c2213821352/devfest-workshop-mcp">GitHub</a>
+                <a href="https://devfest.gdgcdn.cn">DevFest</a>
+            </div>
+        </div>
+    </footer>
 
-      <h3>演示</h3>
-      <p>本仓库包含一个示�?MCP 服务器（ws 服务器）以及一个本地静态站点用于记录本�?Workshop�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于常乐�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="关于常乐祺的个人资料" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于�?�?常乐�?/h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card profile">
-      <h2>常乐�?/h2>
-      <p>职业：研究生</p>
-      <p>兴趣：学�?AI</p>
-      <p>联系方式�?9839024030</p>
-
-      <h3>Workshop 参与记录</h3>
-      <p>我在本次 DevFest Workshop 中实现并测试了一个简易的 Chrome DevTools MCP Server，用于学�?DevTools 协议与性能数据采集�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于 GDG / DevFest</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="GDG �?DevFest 介绍" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于 GDG / DevFest</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card">
-      <h2>GDG（Google Developer Groups�?/h2>
-      <p>GDG 是由开发者自发组织的社区，旨在分�?Google 技术和实践。成员来自不同背景，聚焦互助与学习�?/p>
-
-      <h2>DevFest</h2>
-      <p>DevFest �?GDG 的年度会议，包含技术演讲、Workshop �?network 活动。本�?Workshop 专注�?Chrome DevTools �?MCP（Model Context Protocol）实现�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DevTools MCP 简�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="DevTools MCP（Model Context Protocol）简介与 Workshop 练习" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>DevTools MCP</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card">
-      <h2>什么是 MCP�?/h2>
-      <p>MCP（Model Context Protocol）是 Chrome DevTools 使用的协议之一，允许前端工具与浏览器或被调试目标进�?JSON 消息通信，用于调试、性能检测和页面控制�?/p>
-
-      <h3>Workshop 实现要点</h3>
-      <ul>
-        <li>启动一�?WebSocket 服务（例如本 Workshop �?MCP 服务器），接�?DevTools 前端连接�?/li>
-        <li>实现必要的命令，�?Performance.enable / Performance.getMetrics，用于采集性能数据�?/li>
-        <li>可借助 Protocol Monitor（DevTools 实验功能）观察消息往返过程�?/li>
-      </ul>
-
-      <h3>演示</h3>
-      <p>本仓库包含一个示�?MCP 服务器（ws 服务器）以及一个本地静态站点用于记录本�?Workshop�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于常乐�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="关于常乐祺的个人资料" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于�?�?常乐�?/h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card profile">
-      <h2>常乐�?/h2>
-      <p>职业：研究生</p>
-      <p>兴趣：学�?AI</p>
-      <p>联系方式�?9839024030</p>
-
-      <h3>Workshop 参与记录</h3>
-      <p>我在本次 DevFest Workshop 中实现并测试了一个简易的 Chrome DevTools MCP Server，用于学�?DevTools 协议与性能数据采集�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Google DevFest Workshop �?Chrome DevTools MCP Server</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="记录我参加的 Google DevFest Workshop：Chrome DevTools MCP Server" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Google DevFest Workshop</h1>
-      <p class="tagline">主题：Chrome DevTools MCP Server �?活动记录</p>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero card">
-      <h2>活动概览</h2>
-      <p>这是我参加的 Google DevFest Workshop 的现场记录与学习笔记。Workshop 主题�?Chrome DevTools �?Model Context Protocol (MCP) Server，实现与 DevTools 的通信与性能监控�?/p>
-      <p class="muted">时间�?025�?�?地点：Google DevFest</p>
-    </section>
-
-    <section class="cards">
-      <article class="card">
-        <h3><a href="/gdg.html">什么是 GDG / DevFest</a></h3>
-        <p>简�?GDG 社区�?DevFest 活动目的，交流与协作平台�?/p>
-      </article>
-
-      <article class="card">
-        <h3><a href="/mcp.html">DevTools MCP 简�?/a></h3>
-        <p>DevTools MCP 概念、工作原理与本次 Workshop 的实现要点�?/p>
-      </article>
-
-      <article class="card">
-        <h3><a href="/about.html">关于常乐�?/a></h3>
-        <p>个人简介、研究方向与联系方式�?/p>
-      </article>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small>© 2025 常乐�?�?Google DevFest Workshop 记录</small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于 GDG / DevFest</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="GDG �?DevFest 介绍" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于 GDG / DevFest</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card">
-      <h2>GDG（Google Developer Groups�?/h2>
-      <p>GDG 是由开发者自发组织的社区，旨在分�?Google 技术和实践。成员来自不同背景，聚焦互助与学习�?/p>
-
-      <h2>DevFest</h2>
-      <p>DevFest �?GDG 的年度会议，包含技术演讲、Workshop �?network 活动。本�?Workshop 专注�?Chrome DevTools �?MCP（Model Context Protocol）实现�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DevTools MCP 简�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="DevTools MCP（Model Context Protocol）简介与 Workshop 练习" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>DevTools MCP</h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card">
-      <h2>什么是 MCP�?/h2>
-      <p>MCP（Model Context Protocol）是 Chrome DevTools 使用的协议之一，允许前端工具与浏览器或被调试目标进�?JSON 消息通信，用于调试、性能检测和页面控制�?/p>
-
-      <h3>Workshop 实现要点</h3>
-      <ul>
-        <li>启动一�?WebSocket 服务（例如本 Workshop �?MCP 服务器），接�?DevTools 前端连接�?/li>
-        <li>实现必要的命令，�?Performance.enable / Performance.getMetrics，用于采集性能数据�?/li>
-        <li>可借助 Protocol Monitor（DevTools 实验功能）观察消息往返过程�?/li>
-      </ul>
-
-      <h3>演示</h3>
-      <p>本仓库包含一个示�?MCP 服务器（ws 服务器）以及一个本地静态站点用于记录本�?Workshop�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-</html>
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>关于常乐�?/title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="description" content="关于常乐祺的个人资料" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>关于�?�?常乐�?/h1>
-      <nav class="main-nav">
-        <a href="./index.html">首页</a>
-        <a href="./gdg.html">关于 GDG / DevFest</a>
-        <a href="./mcp.html">DevTools MCP</a>
-        <a href="./about.html">关于�?/a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="card profile">
-      <h2>常乐�?/h2>
-      <p>职业：研究生</p>
-      <p>兴趣：学�?AI</p>
-      <p>联系方式�?9839024030</p>
-
-      <h3>Workshop 参与记录</h3>
-      <p>我在本次 DevFest Workshop 中实现并测试了一个简易的 Chrome DevTools MCP Server，用于学�?DevTools 协议与性能数据采集�?/p>
-    </article>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small><a href="./index.html">返回首页</a></small>
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
