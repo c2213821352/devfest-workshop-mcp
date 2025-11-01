@@ -1,0 +1,13 @@
+{
+  "name": "chrome-mcp",
+  "version": "1.0.0",
+  "description": "Chrome DevTools MCP Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node site-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.5.0"
+  }
+}
