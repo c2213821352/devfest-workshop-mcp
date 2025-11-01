@@ -1,0 +1,3 @@
+# Jekyll 配置文件：指定发布目录为 site/
+source: site
+destination: _site
