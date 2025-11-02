@@ -24,7 +24,8 @@ jobs:
         uses: actions/configure-pages@v4
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        # use v3 to avoid deprecated upload-artifact dependencies
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
       
