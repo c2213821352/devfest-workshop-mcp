@@ -257,3 +257,36 @@ body {
         align-items: flex-start;
     }
 }
+
+/* To-do 页面样式 */
+#todo-form {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#todo-form input[type="text"],
+#todo-form input[type="date"],
+#todo-form select {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: var(--color-surface);
+}
+
+#todo-table th, #todo-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.todo-completed {
+    text-decoration: line-through;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 600px) {
+    #todo-form { flex-direction: column; }
+    #todo-table th:nth-child(3), #todo-table td:nth-child(3),
+    #todo-table th:nth-child(4), #todo-table td:nth-child(4) { display: none; }
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>代办任务 — DevFest Workshop</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="description" content="记录你的日常代办任务（本地存储）" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>代办任务</h1>
+      <nav class="main-nav">
+        <a href="./index.html">首页</a>
+        <a href="./gdg.html">GDG</a>
+        <a href="./mcp.html">MCP</a>
+        <a href="./about.html">关于</a>
+        <a href="./todo.html" class="active">代办</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 class="section-title">我的代办</h2>
+
+      <form id="todo-form" style="margin-bottom:16px; display:flex; gap:8px; flex-wrap:wrap;">
+        <input id="task-title" type="text" placeholder="任务描述（必填）" required style="flex:1; min-width:200px; padding:8px;" />
+        <input id="task-due" type="date" style="padding:8px;" />
+        <select id="task-priority" style="padding:8px;">
+          <option value="low">低</option>
+          <option value="medium" selected>中</option>
+          <option value="high">高</option>
+        </select>
+        <button class="button button-primary" type="submit">添加</button>
+        <button id="clear-completed" type="button" class="button" style="background:#f1f3f4;">清除已完成</button>
+      </form>
+
+      <div style="overflow:auto;">
+        <table id="todo-table" style="width:100%; border-collapse:collapse;">
+          <thead>
+            <tr style="text-align:left; border-bottom:1px solid #e0e0e0;">
+              <th style="padding:8px; width:40px">完成</th>
+              <th style="padding:8px">任务</th>
+              <th style="padding:8px; width:120px">到期</th>
+              <th style="padding:8px; width:100px">优先级</th>
+              <th style="padding:8px; width:120px">操作</th>
+            </tr>
+          </thead>
+          <tbody id="todo-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>© 2025 DevFest Workshop</div>
+      <div class="footer-links"><a href="./index.html">返回首页</a></div>
+    </div>
+  </footer>
+
+  <script src="./todo.js"></script>
+</body>
+</html>
